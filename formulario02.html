@@ -1,0 +1,51 @@
+<!-- Formulário de cadastro de usuário que contém
+ - email
+ - senha
+ - confirmação de senha
+ - aceite os termos 
+ 
+ botão de "submit" e um botão de "reset" para limpar o formulário.-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuário 02</title>
+</head>
+
+<body style="background-color: antiquewhite; color: blue;">
+    <h1>Formulário de cadastro de usuário</h1>
+    <p style="color: red;"><b>Preencha os campos abaixo</b>:</p>
+
+    <form>
+        <div style="margin-bottom: 12px;">
+            <label for="email"> Email </label>
+            <br>
+            <input type="email" name="email" id="email"> 
+        </div>
+
+        <div style="margin-bottom: 12px;">
+            <label for="senha"> Senha </label>
+            <br>
+            <input type="password" name="senha" id="senha"> 
+        </div>
+
+        <div style="margin-bottom: 12px;">
+            <label for="senha"> Confirmar a Senha </label>
+            <br>
+            <input type="password" name="senha" id="senha"> 
+        </div>
+
+        <div style="margin-bottom: 12px;">
+            <input type="checkbox" name="checkboxe" id="checkbox"> 
+            <label for="checkbox"> <b>Aceito os Termos e Condições</b> </label>
+        </div>
+
+        <button type="submit"> Enviar </button>
+        <button type="reset"> Limpar </button>
+
+    </form>
+    
+</body>
+</html>
