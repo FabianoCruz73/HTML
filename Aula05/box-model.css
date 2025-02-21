@@ -1,0 +1,78 @@
+/* seletor {
+    propriedade: valor
+} */
+
+/* Tipos de Propriedades:
+-> dimensionamento
+    -width
+    -height
+    -border
+    -margin
+    -padding
+-> Decoração
+    -color
+    -background-color
+    -font-size
+    -font-family
+    -border-radius
+-> Posicionamento
+    -flex-box / display
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* seletor de tag */
+
+body {
+    background-color: #fafafa;
+}
+
+/* seletor de classe */
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    width: 10rem;
+    height: 10rem;
+
+    border: 1px solid black;
+}
+
+/* seletor de tag 
+- Flex-box (direção dos elementos)
+- justify-content (comos os elementos vão se posicionar)
+- align-itens (vai informar como os elementos vão posicionar no eixo transversal
+https://flexboxfroggy.com/
+*/
+
+main {
+    height: 100vh;
+    display: flex;
+
+    flex-direction: row;
+    gap: 2rem;
+
+    /* Como os elementos vão se posicionar no eixo principal */
+    justify-content: center;
+
+    /* Como os elementos vão se posicionar no eixo transversal */
+    align-items: center;
+}
+
+/* seletor de id */
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
