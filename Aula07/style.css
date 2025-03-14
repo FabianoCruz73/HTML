@@ -1,0 +1,17 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* // <weight>: Use a value from 100 to 900 */
+/* // <uniquifier>: Use a unique and descriptive class name */
+
+.lexend-deca-<uniquifier> {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

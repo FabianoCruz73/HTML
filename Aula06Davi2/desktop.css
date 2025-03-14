@@ -1,0 +1,135 @@
+/* Header */
+@media (min-width: 700px) {
+    header {
+        height: 10vh;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 3rem;
+    }
+
+    header div#brand {
+        width: fit-content;
+    }
+
+    header nav ul {
+        flex-direction: row;
+    }
+
+    header nav ul li {
+        width: 7rem;
+        height: 100%;
+        display: flex;
+    }
+}
+
+/* Main */
+@media (min-width: 800px) {
+    section#hero {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    section#hero div {
+        align-items: flex-start;
+    }
+    
+    section#hero div h1, section#hero div p {
+        text-align: unset;
+    }
+    
+    section#hero img {
+        align-self: flex-end;
+    }
+}
+
+/* Hero Section */
+/* section#hero {
+    height: 50vh;
+    display: flex;
+    background-color: #FAFAFA;
+    max-width: 1440px;
+    margin: auto;
+
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+section#hero div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    font-size: 12px;
+    max-width: 450px;
+}
+
+section#hero div p a {
+    color: white;
+    background-color: #1d1d1d;
+
+    padding: 4px 12px;
+    border-radius: 16px;
+    border: 2px solid #1d1d1d;
+}
+
+section#hero div p a.transparent {
+    color: #1d1d1d;
+    background-color: white;
+}
+
+section#hero img {
+    height: 250px;
+    align-self: self-end;
+} */
+
+/* Feature Section */
+/* section#features {
+    height: 40vh;
+    max-width: 1440px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2.5rem;
+}
+
+section#features div.card {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 1rem;
+    
+    max-width: 250px;
+}
+
+section#features div.card .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px;
+    background-color: #e8e8e8;
+
+    border-radius: 12px;
+}
+
+section#features div.card .icon img {
+    width: 24px;
+    height: 24px;
+}
+
+section#features div.card h2 {
+    font-size: 0.75rem;
+}
+
+section#features div.card p {
+    width: 70%;
+    text-align: center;
+    font-size: 0.5rem;
+} /* falou que entendeu está mentindo kkkkkKKKKKKKKKKKKK */
+
