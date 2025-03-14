@@ -1,0 +1,38 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: "Space Mono", monospace;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header Styles */
+header {
+    
+    margin: auto;
+    
+    max-width: 1440px;
+
+    background-color: #FAFAFA;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logo */
+header div#brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navegação */
+header nav, header nav ul {
+    display: none;
+}
