@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    font-family: "Lexend Deca", sans-serif;
+    place-content: center;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    gap: .5rem;
+}
+
+@media (min-width: 800px) {
+    section#cards {
+        max-width: 1440px;
+        max-height: 352px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* height: auto;
+        width: auto;
+        margin: auto; */
+        align-items: center;
+        gap: 0.03rem
+    }
+}
+
+@media (max-width: 799px) {
+    section#cards {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: auto;
+        margin: auto;
+        align-items: center;
+        gap: 0.03rem
+    }
+
+    div.sedans {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+
+    div.luxury {
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+}
+
+section#cards div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 220px;
+    height: auto;
+    padding: 1.5rem 1.5rem;
+}
+
+/* .linkbutton ou clase botão */
+section#cards div.sedans a {
+    background-color: hsl(0, 0%, 95%);
+    width: fit-content;
+    height: fit-content;
+    padding: .4rem .4rem;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    color: hsl(31, 77%, 52%);
+    transition: 0.3s;
+}
+
+/* .linkbutton */
+section#cards div.sedans a:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+section#cards div.suvs a {
+    background-color: hsl(0, 0%, 95%);
+    width: fit-content;
+    height: fit-content;
+    padding: .4rem .4rem;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    color: hsl(184, 100%, 22%);
+    transition: 0.3s;
+}
+
+section#cards div.suvs a:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+section#cards div.luxury a {
+    background-color: hsl(0, 0%, 95%);
+    width: fit-content;
+    height: fit-content;
+    padding: .4rem .4rem;
+    text-decoration: none;
+    border-radius: 1.5rem;
+    color: hsl(179, 100%, 13%);
+    transition: 0.3s;
+}
+
+section#cards div.luxury a:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+div.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+div.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+div.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+section#cards div h2 {
+    font-size: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Big Shoulders", sans-serif;
+}
+
+section#cards div p {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+
