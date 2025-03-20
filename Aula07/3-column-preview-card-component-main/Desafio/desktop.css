@@ -21,7 +21,7 @@ body {
 
 @media (min-width: 800px) {
     section#cards {
-        max-width: 1440px;
+        max-width: 1920px;
         max-height: 352px;
         display: flex;
         flex-direction: row;
